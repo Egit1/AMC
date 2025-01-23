@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    f;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+ul, a {
+    list-style: none;
+    text-decoration: none;
+}
+section.header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    background: url(image/hompage2.jpg) no-repeat;
+    background-size: cover;
+}
+
+div.brandID {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+div.brandLogo img {
+    height: 80px;
+}
+
+.brandID span {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+    font-family: Gerhaus;
+}
+
+@font-face {
+    font-family: Gerhaus;
+    src: url(fonts/Gerhaus-PK69E.ttf);
+}
+.header nav {
+    width: 100%;
+    padding: 30px 12%;
+}
+
+.header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.header nav a {
+    color: rgb(115, 234, 234);
+    font-size: 1.54rem;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    transition: all 0.50s ease;
+    padding: 10px;
+}
+
+.header nav a:hover {
+    color: aqua;
+}
+
+.header nav a.active {
+    background: rgba(255,255,255,.1);
+    backdrop-filter: blur(30px);
+    border-radius: 15px;
+}
+.homeAddress h1{
+    font-size: 12vmin;
+    font-family:  "Poppins", serif;
+    color: rgb(255,255,255);
+    backdrop-filter: blur(30px);
+    padding: 20px 40px;
+    border-radius: 1rem;
+    text-transform: capitalize;
+    background: linear-gradient(rgb(44,22,122));
+    background-clip: text;
+    padding-top: 40px;
+}
+
+div.socialHandles ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+.socialHandles li {
+    color: white;
+}
+.socialHandles ul a {
+    color: white;
+    font-size: 0.88rem;
+}
