@@ -21,7 +21,7 @@ section.header {
     justify-content: center;
     flex-direction: column;
     gap: 2rem;
-    background: url(image/hompage2.jpg) no-repeat;
+    background: url(image/hompage.jpg) no-repeat;
     background-size: cover;
 }
 
